@@ -3,13 +3,13 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Icons, images and Exit")
-root.iconbitmap('codemy.ico')
+root.iconbitmap('images/codemy.ico')
 
-my_img1 = ImageTk.PhotoImage(Image.open('aspen.png'))
-my_img2 = ImageTk.PhotoImage(Image.open('aspen2.png'))
-my_img3 = ImageTk.PhotoImage(Image.open('me1.png'))
-my_img4 = ImageTk.PhotoImage(Image.open('me2.png'))
-my_img5 = ImageTk.PhotoImage(Image.open('me3.png'))
+my_img1 = ImageTk.PhotoImage(Image.open('images/aspen.png'))
+my_img2 = ImageTk.PhotoImage(Image.open('images/aspen2.png'))
+my_img3 = ImageTk.PhotoImage(Image.open('images/me1.png'))
+my_img4 = ImageTk.PhotoImage(Image.open('images/me2.png'))
+my_img5 = ImageTk.PhotoImage(Image.open('images/me3.png'))
 
 image_list = [my_img1, my_img2, my_img3, my_img4, my_img5]
 
